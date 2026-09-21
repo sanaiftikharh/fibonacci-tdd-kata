@@ -30,6 +30,39 @@
         }
       ],
       "console": []
+    },
+    {
+      "id": "rxoL",
+      "code_hash": "c0ca1baad8525337aef3ca7d5fcfd56d",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "This cell raised an exception: AssertionError",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">\"C:\\Users\\sanai\\AppData\\Local\\Temp\\marimo_38792\\__marimo__cell_rxoL_.py\"</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"k\">assert</span> <span class=\"n\">fibonacci</span><span class=\"p\">(</span><span class=\"mi\">0</span><span class=\"p\">)</span> <span class=\"o\">==</span> <span class=\"mi\">0</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^</span>\n<span class=\"gr\">AssertionError</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "RXbX",
+      "code_hash": "70072c3949cb98878535efff72decfdf",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "syntax",
+          "evalue": "line 1\n    asser fibonacci(2) = 1\n          ^^^^^^^^^\nSyntaxError: invalid syntax\n",
+          "traceback": []
+        }
+      ],
+      "console": []
     }
   ]
 }
