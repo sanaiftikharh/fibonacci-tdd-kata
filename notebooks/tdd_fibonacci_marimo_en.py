@@ -13,15 +13,15 @@ def _():
 
 
 @app.function
-def fibonacci(n:int):
+def fibonacci(n: int):
     if n <= 1:
         return n
 
-    a , b = 0 , 1
-    
-    for _ in range(2,n + 1):
-        a , b = b , a + b
-    
+    a, b = 0, 1
+
+    for _ in range(2, n + 1):
+        a, b = b, a + b
+
     return b
 
 
@@ -92,7 +92,7 @@ def test_fibonacci_mod_large_n():
     result = fibonacci_mod(10**18, m)
 
     assert result == 560546875
-    
+
     return
 
 
