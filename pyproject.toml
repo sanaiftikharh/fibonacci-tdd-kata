@@ -52,3 +52,6 @@ source = ["src"]
 [tool.coverage.report]
 show_missing = true
 fail_under = 90
+
+[tool.marimo.runtime]
+pythonpath = ["src"]
