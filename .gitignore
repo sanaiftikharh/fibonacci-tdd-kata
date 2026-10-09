@@ -9,8 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
+#others
 __marimo__/
 .coverage
-
+.python-version
 site/
 
