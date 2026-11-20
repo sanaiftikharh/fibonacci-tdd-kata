@@ -106,9 +106,9 @@ from fibonacci_kata.core import fibonacci, fibonacci_mod
 `fibonacci(n)` uses an iterative implementation and returns `F(n)`:
 
 ```python
-fibonacci(0)   # 0
-fibonacci(1)   # 1
-fibonacci(5)   # 5
+fibonacci(0)  # 0
+fibonacci(1)  # 1
+fibonacci(5)  # 5
 fibonacci(10)  # 55
 fibonacci(20)  # 6765
 ```
