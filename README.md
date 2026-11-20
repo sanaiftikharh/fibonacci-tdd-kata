@@ -410,46 +410,6 @@ Package metadata is declared in `pyproject.toml`, including:
 - development dependencies;
 - pytest, Ruff, mypy, and coverage settings.
 
-## Development Workflow
-
-Use issue-based branches and pull requests:
-
-```bash
-git switch main
-git pull origin main
-git switch -c feature/your-feature
-```
-
-Recommended workflow:
-
-1. Create a GitHub issue.
-2. Create a focused branch from `main`.
-3. Add a failing test.
-4. Implement the smallest passing change.
-5. Run all local quality checks.
-6. Commit the change using an imperative commit subject.
-7. Open a pull request against `main`.
-8. Merge only after the CI workflow passes.
-
-Use issue-closing commit or pull-request text where appropriate:
-
-```text
-Closes #issue-number
-```
-
-## Commit History Highlights
-
-The repository history shows the assignment workflow:
-
-- package publishing workflow creation;
-- test automation;
-- code-quality checks;
-- Marimo notebook exploration;
-- CLI exposure;
-- notebook deployment fixes;
-- GitHub Pages project-site deployment;
-- branch, merge, revert, and refactor activity.
-
 ## Author
 
 **Sana Iftikhar**
